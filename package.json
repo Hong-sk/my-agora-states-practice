@@ -23,7 +23,7 @@
     "reporters": [
       "default",
       [
-        "./node_modules/codestates-assignment-manager/imposter-reporter/index.js",
+        "./test/js",
         {
           "project_id": "fe-sprint-my-agora-states-server"
         }

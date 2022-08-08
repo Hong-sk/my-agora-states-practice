@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 function App() {
   const domain = "http://localhost:3001";
   const [discussions, setDiscussions] = useState([]);
+  const test = ([testState, setTestState] = useState(false));
 
   useEffect(() => {
     getDiscussion();
@@ -60,3 +61,6 @@ function App() {
 }
 
 export default App;
+module.exports = {
+  getDiscussion,
+};
