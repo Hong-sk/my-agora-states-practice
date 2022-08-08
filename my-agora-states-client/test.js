@@ -1,4 +1,5 @@
-const { getDiscussion } = require("./src/App");
+// const { getDiscussion } = require("./src/App");
+import { getDiscussion } from "./src/App";
 
 describe("Testing getDiscussion method gets validate discussions", () => {
   it("check getDiscussions method", () => {
